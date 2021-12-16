@@ -1,0 +1,46 @@
+@charset "ISO-8859-1";
+*{
+    box-sizing:border-box;
+    
+}
+body{
+    background-image: linear-gradient(to right,#2E5DB9, #6C3BB0);
+}
+h3 {
+    text-align: center;
+}
+p{
+    color: black;
+}
+.main {
+    margin: 0px;
+    padding: 10px;
+    width: 90vw;
+    height: 90vh;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 3px 3px 10px 10px rgb(218, 212, 212);
+    background-image: linear-gradient(to right,#2E5DB9, #6C3BB0);
+    text-align: center;
+    align-content: center;
+   
+    
+}
+
+.logout{
+	margin-left: 80%;
+
+}
+
+.addreview{
+	border-radius:50%;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table{
+	width : 100%;
+}

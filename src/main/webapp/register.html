@@ -1,0 +1,31 @@
+ 
+<!DOCTYPE html> 
+<html> 
+<head>
+ <meta charset="ISO-8859-1"> 
+ <title>Register</title>
+
+<Script>
+var Password = document.getElementByID("txPassword").value;
+var verify = document.getElementByID("txVerify").value;
+
+if(Password != verify ){
+console.log('error');
+}
+</Script>
+</head> <body>
+
+<div id="errormsg" style="color:red;font-weight:bold">
+
+
+ </div>
+  <h1>Register</h1> 
+ <form>
+  Email: <input type="text" name="txEmail"><br />
+   Username: <input type="text" name="txUsername"><br />
+    Password: <input type="password" id="txPassword"><br /> 
+    Verify Password: <input type="password" id="txVerify"><br />
+     <input id= "register" type="submit" value="Register"> 
+</form>
+</body> 
+</html>
